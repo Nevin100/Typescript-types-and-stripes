@@ -4,7 +4,7 @@
 //1.) Regular Function Parameter Annotations
 
 function great(person: string = "Annonymous") {
-  console.log(person);
+  console.log(`Hello , ${person}!`);
 }
 
 great();
