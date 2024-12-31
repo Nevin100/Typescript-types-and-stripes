@@ -1,7 +1,9 @@
 //Default Params :
 //It specifies the value by default to the params of the function
 
-//1.) Regular Function Parameter Annotations
+//A)
+
+//A1.) Regular Function Parameter Annotations
 
 function great(person: string = "Annonymous") {
   console.log(`Hello , ${person}!`);
@@ -10,7 +12,7 @@ function great(person: string = "Annonymous") {
 great();
 great("Nevin");
 
-//2.) ArrowFunctions Parameter Annotations
+//A2.) ArrowFunctions Parameter Annotations
 
 const greet = (person: string = "Annonymous") => {
   console.log(person);
@@ -19,10 +21,20 @@ const greet = (person: string = "Annonymous") => {
 greet();
 greet("Nevin");
 
-//Return Annotations : (Regular):
-function double(x: number): number{
+//b.)Return Type Annotations
+//B1.) Return Annotations : (Regular):
+function doubleBy2(x: number): number{
   return x * 2;
 }
 
-const result = double(2);
+const result = doubleBy2(2);
 console.log(result);
+
+//B2.) Void Return Type Annotations : (Regular)
+
+function double2(x: number): void {
+  console.log(`The value is: ${x * x} `);
+}
+
+double2(4);
+
