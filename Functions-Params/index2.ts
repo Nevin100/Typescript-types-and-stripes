@@ -18,3 +18,11 @@ const greet = (person: string = "Annonymous") => {
 
 greet();
 greet("Nevin");
+
+//Return Annotations : (Regular):
+function double(x: number): number{
+  return x * 2;
+}
+
+const result = double(2);
+console.log(result);
