@@ -12,3 +12,25 @@ const printUserInfo = (user: User) => {
 
 const response = printUserInfo({ name: "Nevin", age: 20 });
 console.log(response);
+
+
+// Optional Properties
+type person = {
+  name: string;
+  age: number;
+  address?: string;
+}
+
+const printPersonInfo = (person: person) => {
+  return `Name : ${person.name} , Age : ${person.age} , Address : ${person.address}`;
+}
+
+//no address member mentioned
+const response2 = printPersonInfo({ name: "Nevin", age: 20 });
+console.log(response2);
+
+//all the attributes are mentioned
+const response3 = printPersonInfo({
+  name: "Nevin", age: 20, address:"nevinbali100@gmail.com"
+})
+console.log(response3);
