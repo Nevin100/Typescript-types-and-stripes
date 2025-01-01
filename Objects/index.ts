@@ -10,3 +10,15 @@ const person: { firstName: string, lastName: string, age: number } = {
 }
 
 console.log(`FirstName : ${person.firstName}, LastName : ${person.lastName}, age:${person.age}`);
+
+//function params : 
+function printUser(): { name: string, age: number; location: string } {
+  return {
+    name: "Nevin",
+    age: 20,
+    location: "India",
+  }
+}
+
+const res = printUser();
+console.log(res);
