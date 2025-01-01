@@ -6,3 +6,8 @@ let password : string | number = 'hello'
 password = 45;
 
 console.log(password);
+
+const items: (number | string)[] = [
+  1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+];
+console.log(items);
