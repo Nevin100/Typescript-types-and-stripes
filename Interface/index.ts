@@ -27,7 +27,7 @@ interface Add{
 const add: Add = (x: number, y: number) => x + y;
 console.log(add(2, 2));
 
-//interafce of class : 
+//interafce of vaiables : 
 interface MovieDetails {
   readonly name: string;
   ratings: number;
@@ -47,3 +47,24 @@ const movie1: Movie = {
 }
 
 console.log()
+
+//Interface of class:
+
+interface Vehicle {
+  start() : void;
+  stop() : void;
+}
+
+class Car implements Vehicle{
+  start(): void {
+    console.log("Car is Starting!!");
+  }
+
+  stop(): void {
+      console.log("Car is Stopping!!");
+  }
+
+}
+
+const Mycar = new Car();
+Mycar.start();
