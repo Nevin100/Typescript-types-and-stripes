@@ -1,5 +1,5 @@
 //Annotations :
-// Annotations are used to specify the data type of a variaqble, parameter, function return value and other types of values
+// Annotations are used to specify the data type of a variable, parameter, function return value and other types of values
 
 //String : 
 let myName: string = "Nevin";
