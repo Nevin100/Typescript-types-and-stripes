@@ -1,5 +1,5 @@
 //Arrays :
-// Arrays are a type of objectthat can store multiple values of the same data type or in other words of homogenious nature
+// Arrays are a type of object that can store multiple values of the same data type or in other words of homogenious nature
 
 // Notations : 1.) '[]' and 2.) Array <Type> to indicate an array of a specific type
 
